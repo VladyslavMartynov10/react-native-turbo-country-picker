@@ -14,7 +14,7 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Button title="Open" onPress={open} />
-      <Text style={{ color: 'white' }}>Result: {country}</Text>
+      <Text style={styles.text}>Result: {country}</Text>
     </View>
   );
 }
@@ -24,5 +24,8 @@ const styles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
+  },
+  text: {
+    color: 'white',
   },
 });
