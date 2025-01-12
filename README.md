@@ -1,6 +1,6 @@
 # react-native-turbo-country-picker
 
-Turbo 
+Turbo module for country picker
 
 ## Installation
 
@@ -10,15 +10,15 @@ npm install react-native-turbo-country-picker
 
 ## Usage
 
-
 ```js
-import { multiply } from 'react-native-turbo-country-picker';
+import { openPicker } from 'react-native-turbo-country-picker';
 
 // ...
 
-const result = multiply(3, 7);
-```
+const result =  openPicker((selectedCountry: string) => {
 
+});;
+```
 
 ## Contributing
 
